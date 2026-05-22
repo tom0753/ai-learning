@@ -1,4 +1,4 @@
-x = int(input("Podaj pierwsza zmienna: "))
-y = int(input("Podaj druga zmienna: "))
+x = float(input("Podaj pierwsza zmienna: "))
+y = float(input("Podaj druga zmienna: "))
 
 print("Twoj wynik to: ",x + y)
