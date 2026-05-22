@@ -1,4 +1,3 @@
 name=input('Jak sie nazywasz? ')
-name=name.strip()
-name=name.capitalize()
+name=name.strip().title()
 print("Hej",name,". Milo mi Cie poznac!")
