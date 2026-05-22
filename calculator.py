@@ -1,6 +1,4 @@
-x = input("Podaj pierwsza zmienna: ")
-y = input("Podaj druga zmienna: ")
+x = int(input("Podaj pierwsza zmienna: "))
+y = int(input("Podaj druga zmienna: "))
 
-wynik = int(x) + int(y)
-
-print("Twoj wynik to: ",wynik)
+print("Twoj wynik to: ",x + y)
