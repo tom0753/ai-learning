@@ -1,2 +1,3 @@
 name=input('Jak sie nazywasz? ').strip().title()
-print("Hej",name,". Milo mi Cie poznac!")
+firstn, lastn= name.split(" ")
+print("Hej",firstn, lastn,". Milo mi Cie poznac!")
