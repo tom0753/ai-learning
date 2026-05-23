@@ -4,12 +4,8 @@ def main():
         print("Parzysta")
     else:
         print("Nieparzysta")
+
 def czyparzysta(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-
-
+    return True if n % 2 == 0 else False
 
 main()
