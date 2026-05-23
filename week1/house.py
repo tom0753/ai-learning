@@ -1,0 +1,8 @@
+name = input("Jak masz na imie? ")
+match name:
+    case "Harry" | "Hermione" | "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:
+        print("Who?")
