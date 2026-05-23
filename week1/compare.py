@@ -6,3 +6,4 @@ if x > y:
 elif x < y:
     print("x jest mniejszy od y")
 else:
+    print("x jest rowny y")

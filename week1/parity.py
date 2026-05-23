@@ -6,6 +6,6 @@ def main():
         print("Nieparzysta")
 
 def czyparzysta(n):
-    return True if n % 2 == 0 else False
+    return n % 2 == 0
 
 main()
